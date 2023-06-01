@@ -10,6 +10,10 @@ namespace InheritancePrac3_2
     {
         static void Main(string[] args)
         {
+
+            Dog dog = new Dog();
+            dog.Public();
+
             List<Animal> Animals = new List<Animal>() { new Dog(), new Dog(),  new Dog(),
             new Cat(), new Cat(), new Cat()};
             
