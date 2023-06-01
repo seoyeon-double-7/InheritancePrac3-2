@@ -10,7 +10,7 @@ namespace InheritancePrac3_2
 
         public int Age { get; set; }
 
-        Animal()
+        public Animal()
         {
             this.Age = 0;
         }
