@@ -4,10 +4,13 @@ namespace InheritancePrac3_2
 {
     public class Dog
     {
-        public int Age { get, set; }
+        public int Age { get; set; }
          public string Color { get; set; }
 
-        public Dog() { this.Age = 0};
+        public Dog() 
+        {
+            this.Age = 0;
+        }
 
         public void Bark()
         {
@@ -15,12 +18,12 @@ namespace InheritancePrac3_2
         }
         public void Eat()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("냠냠 먹습니다.");
         }
 
         public void Sleep()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("쿨쿨 잠을 잡니다.");
         }
 
     }

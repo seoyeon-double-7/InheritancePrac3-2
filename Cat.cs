@@ -2,21 +2,32 @@
 
 namespace InheritancePrac3_2
 {
-    internal class Cat
+    /// <summary>
+    /// 고양이 클래스
+    /// </summary>
+    public class Cat
     {
-        internal void Eat()
+        /// <summary>
+        /// 고양이 나이
+        /// </summary>
+
+        public int Age { get; set; }
+
+        public void Eat()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("냠냠 먹습니다.");
         }
 
-        internal void Sleep()
+        public void Meow()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("냥냥 웁니다.");
         }
 
-        internal void Meow()
+        public void Sleep()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("쿨쿨 잠을 잡니다.");
         }
+
+        
     }
 }
